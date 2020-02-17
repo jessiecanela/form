@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: #b2b2b2;
+  color: #fff;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.show-case ul a.current-1 {
+  display: block;
+  border: 1px solid white;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.show-case ul a.current {
+  opacity: 0.3;
+}
+
+#container {
+  margin: 30px auto;
+  max-width: 450px;
+  padding: 0px;
+  background: url("/img/boey-jun-hui-BUjzhQ7lyQw-unsplash.jpg") no-repeat center
+    center/cover;
+}
+
+.show-case {
+  background: rgba(43, 44, 78, 0.9);
+}
+
+.form-wrap ul {
+  display: flex;
+}
+
+.form-wrap ul li {
+  font-size: 23px;
+  margin-left: 45px;
+  margin-top: 70px;
+  align-items: center;
+  list-style: none;
+}
+#container .form-group-1 {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+#container .form-group-2 {
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+#container .form-wrap .form-group label {
+  display: block;
+  margin-left: 10px;
+  opacity: 0.3;
+}
+
+#container .form-wrap .form-group input {
+  width: 85%;
+  height: 30px;
+  padding: 2px;
+  border-radius: 20px;
+  font-size: 13px;
+  background: rgb(245, 244, 244, 0.1);
+  color: #fff;
+  border: rgb(245, 244, 244, 0.1);
+  font-weight: bold;
+}
+
+#container .keep-sign {
+  display: flex;
+  align-items: center;
+  margin-left: 65px;
+  margin-top: 18px;
+}
+
+#container h5 {
+  padding-left: 8px;
+}
+
+.form-wrap button {
+  display: block;
+  margin-left: 50px;
+  margin-top: 18px;
+  color: #fff;
+  background: #1762ee;
+  width: 75%;
+  height: 35px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 16;
+  border: #1762ee;
+  cursor: pointer;
+}
+
+#container .btn {
+  font-weight: bolder;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 13px;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.footer a {
+  color: rgba(116, 117, 145, 0.992);
+}
+
+.footer a:hover {
+  color: white;
+}
+hr {
+  margin-top: 70px;
+  margin-left: 40px;
+  opacity: 0.2;
+  width: 80%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #1762ee;
+}
